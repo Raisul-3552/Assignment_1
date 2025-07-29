@@ -1,0 +1,74 @@
+.homeContainer {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #00796b;
+  margin-bottom: 1rem;
+}
+
+.postContainer {
+  background: #f2f2f2;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.imageBox {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  margin: 1rem 0;
+}
+
+.authorInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.postBody {
+  color: #444;
+}
+
+.commentBox {
+  background: #fff;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reactionContainer {
+  margin-top: 1rem;
+}
+
+.reactionButton {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reactionButton.selected {
+  background-color: #00796b;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: 1px solid #888;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
