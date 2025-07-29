@@ -1,74 +1,174 @@
 .homeContainer {
-  padding: 2rem;
+  padding: 1.5rem;
   font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
 }
 
-.title {
-  color: #00796b;
+.breadcrumb {
+  color: gray;
   margin-bottom: 1rem;
 }
 
-.postContainer {
-  background: #f2f2f2;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 8px;
+.breadcrumb a {
+  color: gray;
+  text-decoration: underline;
+}
+
+.postTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.postSubText {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 1rem;
 }
 
 .imageBox {
-  width: 100%;
-  height: 200px;
-  background-color: #ddd;
-  margin: 1rem 0;
+  height: 150px;
+  background-color: #500000;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 1.5rem;
 }
 
 .authorInfo {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 1rem;
 }
 
+.authorFlex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #00796b;
+}
+
+.authorButton {
+  background: none;
+  border: none;
+  color: #00796b;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+
+.authorDate {
+  font-size: 12px;
+  color: gray;
+}
+
+.divider {
+  margin: 1rem 0;
+}
+
 .postBody {
+  font-size: 14px;
+  line-height: 1.6;
   color: #444;
 }
 
-.commentBox {
-  background: #fff;
-  padding: 0.5rem;
-  margin-top: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.reactionSummary {
+  background-color: #d9e8ff;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .reactionContainer {
-  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .reactionButton {
-  padding: 6px 12px;
-  margin-right: 5px;
-  border: 1px solid #ccc;
+  padding: 6px 14px;
   background-color: #eee;
+  color: #000;
+  border: 1px solid #ccc;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.reactionButton.selected {
+.selected {
   background-color: #00796b;
   color: white;
+}
+
+.reactionStats {
+  font-size: 14px;
+  color: #333;
+}
+
+.commentSection {
+  background-color: #eef2f5;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.commentInputBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.commentInputBox input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.commentInputBox button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.commentBox {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.commentActions {
+  font-size: 13px;
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 10px;
+  color: #00796b;
+  cursor: pointer;
+}
+
+.report {
+  margin-left: auto;
+  color: gray;
 }
 
 .pagination {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
-  margin-top: 2rem;
-}
-
-.pagination button {
-  padding: 6px 12px;
-  border: 1px solid #888;
-  background-color: #fff;
-  cursor: pointer;
-  border-radius: 4px;
 }
