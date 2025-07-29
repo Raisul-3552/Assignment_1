@@ -6,8 +6,8 @@ function Home() {
   const navigate = useNavigate();
   const [reaction, setReaction] = useState('');
   const [comments] = useState([
-    { id: 1, author: 'Atik', date: '10 February 2025', text: 'The children of Gaza deserve peace and safety.' },
-    { id: 2, author: 'Sayem', date: '11 February 2025', text: 'We must raise awareness for their difficult lives.' }
+    { id: 1, author: 'Atik', date: '22 july 2025', text: 'The children of Gaza deserve peace and safety.' },
+    { id: 2, author: 'Sayem', date: '23 july 2025', text: 'We must raise awareness for their difficult lives.' }
   ]);
 
   return (
@@ -32,7 +32,7 @@ function Home() {
             <button onClick={() => navigate('/author')} className={styles.authorButton}>
               Raisul Hasan
             </button>
-            <p className={styles.authorDate}>7 January 2025</p>
+            <p className={styles.authorDate}>20 july 2025</p>
           </div>
         </div>
       </div>

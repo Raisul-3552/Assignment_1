@@ -8,13 +8,13 @@ function Profile() {
         <div className={styles.avatar}></div>
         <div>
           <h2>A.B.M. Raisul Hasan Ratul</h2>
-          <p>Joined: 7 January 2020</p>
+          <p>Joined: 1 February 2020</p>
         </div>
       </div>
 
       <div className={styles.profileBody}>
         <h3>About</h3>
-        <p>.</p>
+        <p>Studies in Ahsanullah University of Science and Technology</p>
 
         <h3>Posts</h3>
         <ul>
